@@ -143,7 +143,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, Give /play {YOUR SONG} to play...!!! </i>")
+            f"<i>Hey {user.first_name}, Give /play < YOUR SONG > to play...!!! </i>")
         return
     
     audio = (
